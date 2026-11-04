@@ -1,0 +1,6 @@
+{
+  "format": "nextstep-manifest",
+  "datasets": [
+    { "schemaVersion": 4, "datasetVersion": 7, "publishedAt": "2026-11-04", "file": "nextstep_dataset_v7.json", "sha256": "33bfb63b55a85ee617e70d76e12a3b687e88474d7234d57d781cf5709806a6cb" }
+  ]
+}

@@ -1,0 +1,1776 @@
+{
+  "format": "nextstep-dataset",
+  "schemaVersion": 4,
+  "datasetVersion": 7,
+  "publishedAt": "2026-11-04",
+  "isDemo": true,
+  "notes": "Demonstration dataset of 20 institutions. Every value was checked against the official source listed for it. Unknown values are null and must be shown as not available. Campus coordinates are not yet verified, so distances use town centres and are labelled approximate.",
+  "institutions": [
+    {
+      "id": "za-ec-ufh",
+      "name": "University of Fort Hare",
+      "shortName": "UFH",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university with three campuses in the Eastern Cape: Alice, Bhisho and East London.",
+      "website": "https://www.ufh.ac.za",
+      "email": "info@ufh.ac.za",
+      "phone": "+27 40 602 2011",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-ufh-alice",
+          "name": "Alice Campus",
+          "isMain": false,
+          "streetAddress": "Ring Road",
+          "suburb": "Dikeni",
+          "town": "Alice",
+          "province": "Eastern Cape",
+          "postalCode": "5700",
+          "phone": "+27 40 602 2011",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-ufh-bhisho",
+          "name": "Bhisho Campus",
+          "isMain": false,
+          "streetAddress": "50 Independence Avenue",
+          "suburb": null,
+          "town": "Bhisho",
+          "province": "Eastern Cape",
+          "postalCode": "5605",
+          "phone": "+27 43 783 5007",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-ufh-east-london",
+          "name": "East London Campus",
+          "isMain": false,
+          "streetAddress": "50 Church Street",
+          "suburb": "East London CBD",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": "5200",
+          "phone": "+27 43 704 7000",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Our campuses - University of Fort Hare",
+          "url": "https://www.ufh.ac.za/student/our-campuses",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Campus names, addresses and telephone numbers"
+        },
+        {
+          "title": "Campus and general - UFH First Year Experience",
+          "url": "https://fye.ufh.ac.za/faq-base/category/campus-and-general/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "General enquiries email address"
+        },
+        {
+          "title": "Apply - University of Fort Hare",
+          "url": "https://www.ufh.ac.za/studyhere/apply",
+          "accessedOn": "2026-11-04",
+          "usedFor": "2027 application opening and closing dates"
+        }
+      ],
+      "events": [
+        {
+          "id": "za-ec-ufh-2027-applications-open",
+          "title": "2027 applications open (undergraduate and postgraduate)",
+          "category": "application_opening",
+          "startDate": "2026-05-01",
+          "endDate": null,
+          "description": "Applications for the 2027 academic year open online.",
+          "source": {
+            "title": "Apply - University of Fort Hare",
+            "url": "https://www.ufh.ac.za/studyhere/apply",
+            "accessedOn": "2026-11-04"
+          },
+          "verificationStatus": "verified",
+          "lastVerifiedOn": "2026-11-04"
+        },
+        {
+          "id": "za-ec-ufh-2027-undergraduate-close",
+          "title": "2027 undergraduate applications close",
+          "category": "application_closing",
+          "startDate": "2026-10-31",
+          "endDate": null,
+          "description": "Closing date for 2027 undergraduate applications.",
+          "source": {
+            "title": "Apply - University of Fort Hare",
+            "url": "https://www.ufh.ac.za/studyhere/apply",
+            "accessedOn": "2026-11-04"
+          },
+          "verificationStatus": "verified",
+          "lastVerifiedOn": "2026-11-04"
+        },
+        {
+          "id": "za-ec-ufh-2027-honours-masters-close",
+          "title": "2027 Honours and Master's applications close",
+          "category": "application_closing",
+          "startDate": "2026-10-31",
+          "endDate": null,
+          "description": "Closing date for 2027 Honours and Master's applications.",
+          "source": {
+            "title": "Apply - University of Fort Hare",
+            "url": "https://www.ufh.ac.za/studyhere/apply",
+            "accessedOn": "2026-11-04"
+          },
+          "verificationStatus": "verified",
+          "lastVerifiedOn": "2026-11-04"
+        },
+        {
+          "id": "za-ec-ufh-2027-phd-close",
+          "title": "2027 PhD applications close",
+          "category": "application_closing",
+          "startDate": "2027-03-31",
+          "endDate": null,
+          "description": "Closing date for 2027 PhD applications.",
+          "source": {
+            "title": "Apply - University of Fort Hare",
+            "url": "https://www.ufh.ac.za/studyhere/apply",
+            "accessedOn": "2026-11-04"
+          },
+          "verificationStatus": "verified",
+          "lastVerifiedOn": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "za-ec-bcc-tvet",
+      "name": "Buffalo City TVET College",
+      "shortName": "BCC",
+      "category": "university_college",
+      "institutionType": "Public TVET college",
+      "ownership": "public",
+      "description": "TVET college serving the Greater East London area since 2002, offering business and engineering studies.",
+      "website": "https://bccollege.co.za",
+      "email": "marketing1@bccollege.co.za",
+      "phone": "+27 43 880 0177",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-bcc-tvet-east-london",
+          "name": "East London Campus",
+          "isMain": false,
+          "streetAddress": "Corner Lukin Road and King Street",
+          "suburb": null,
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": "5201",
+          "phone": "+27 43 880 0177",
+          "email": "infodesk@bccollege.co.za",
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-bcc-tvet-st-marks",
+          "name": "St Marks Campus",
+          "isMain": false,
+          "streetAddress": "St Marks Street",
+          "suburb": "Southernwood",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": "5201",
+          "phone": "+27 43 880 0177",
+          "email": "stmreception2@bccollege.co.za",
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-bcc-tvet-john-knox-bokwe",
+          "name": "John Knox Bokwe Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": null,
+          "province": null,
+          "postalCode": null,
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-bcc-tvet-king-street",
+          "name": "King Street Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": null,
+          "province": null,
+          "postalCode": null,
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Us - Buffalo City TVET College",
+          "url": "https://bccollege.co.za/contact-us/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Administration centre, East London and St Marks campus contact details, year established, study areas"
+        },
+        {
+          "title": "School of Business and Engineering - Buffalo City TVET College",
+          "url": "https://bccollege.co.za/school-of-business-and-engineering/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Names of all four campuses"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-selborne-college",
+      "name": "Selborne College",
+      "shortName": "SC",
+      "category": "high_school",
+      "institutionType": "Boys' high school",
+      "ownership": null,
+      "description": "Boys' high school in Selborne, East London, with a boarding hostel.",
+      "website": "https://www.selborne.co.za",
+      "email": "info@selborne.co.za",
+      "phone": "+27 43 722 1822",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-selborne-college-main",
+          "name": "Selborne College",
+          "isMain": true,
+          "streetAddress": "4 Dawson Road",
+          "suburb": "Selborne",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": "5200",
+          "phone": "+27 43 722 1822",
+          "email": "info@selborne.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Us - Selborne College",
+          "url": "https://www.selborne.co.za/contact-us/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Physical address, telephone, email, boys' school, hostel"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-wsu",
+      "name": "Walter Sisulu University",
+      "shortName": "WSU",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university with four campuses in the Eastern Cape: Mthatha, Butterworth, Buffalo City (East London) and Komani.",
+      "website": "https://www.wsu.ac.za",
+      "email": null,
+      "phone": "+27 47 502 2100",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-wsu-mthatha",
+          "name": "Mthatha Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "Mthatha",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 47 502 2100",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-wsu-butterworth",
+          "name": "Butterworth Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "Butterworth",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 47 401 6000",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-wsu-buffalo-city",
+          "name": "Buffalo City Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 702 9200",
+          "email": "applicationsbcc@wsu.ac.za",
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-wsu-komani",
+          "name": "Komani Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "Komani",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 40 842 6842",
+          "email": "applicationskom@wsu.ac.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "General Admission FAQs - Walter Sisulu University",
+          "url": "https://wsu.ac.za/en/application-and-registration/general-admission-faqs",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Campus names, campus application emails and Komani contact number"
+        },
+        {
+          "title": "Buffalo City - Walter Sisulu University",
+          "url": "https://www.wsu.ac.za/index.php/en/buffalo-city",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Campus telephone numbers"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-rhodes",
+      "name": "Rhodes University",
+      "shortName": "RU",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university in Makhanda (Grahamstown), Eastern Cape.",
+      "website": "https://www.ru.ac.za",
+      "email": null,
+      "phone": "+27 46 603 8111",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-rhodes-makhanda",
+          "name": "Makhanda campus",
+          "isMain": true,
+          "streetAddress": "Drosty Road",
+          "suburb": "Grahamstown",
+          "town": "Makhanda",
+          "province": "Eastern Cape",
+          "postalCode": "6139",
+          "phone": "+27 46 603 8111",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Details - Rhodes University",
+          "url": "https://www.ru.ac.za/contactus/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Physical address and telephone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-nmu",
+      "name": "Nelson Mandela University",
+      "shortName": "NMU",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university with six campuses in Gqeberha and one in George.",
+      "website": "https://www.mandela.ac.za",
+      "email": "info@mandela.ac.za",
+      "phone": "+27 41 504 1111",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-nmu-south",
+          "name": "South Campus",
+          "isMain": true,
+          "streetAddress": "University Way",
+          "suburb": "Summerstrand",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6001",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-nmu-north",
+          "name": "North Campus",
+          "isMain": false,
+          "streetAddress": "Gardham Avenue",
+          "suburb": "Summerstrand",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6001",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-nmu-second-avenue",
+          "name": "2nd Avenue Campus",
+          "isMain": false,
+          "streetAddress": "2nd Avenue",
+          "suburb": "Summerstrand",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6001",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-nmu-bird-street",
+          "name": "Bird Street Campus",
+          "isMain": false,
+          "streetAddress": "20 Bird Street",
+          "suburb": "Central",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6001",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-nmu-missionvale",
+          "name": "Missionvale Campus",
+          "isMain": false,
+          "streetAddress": "Uitenhage Road",
+          "suburb": "Missionvale",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6059",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-ec-nmu-ocean-sciences",
+          "name": "Ocean Sciences Campus",
+          "isMain": false,
+          "streetAddress": "Gomery Road",
+          "suburb": "Summerstrand",
+          "town": "Gqeberha",
+          "province": "Eastern Cape",
+          "postalCode": "6001",
+          "phone": null,
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        },
+        {
+          "id": "za-wc-nmu-george",
+          "name": "George Campus",
+          "isMain": false,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "George",
+          "province": "Western Cape",
+          "postalCode": null,
+          "phone": "+27 44 801 5111",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nelson Mandela University Addresses - Postal Services",
+          "url": "https://postal.mandela.ac.za/Nelson-Mandela-University-Addresses",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Campus street addresses"
+        },
+        {
+          "title": "Home - Nelson Mandela University",
+          "url": "https://www.mandela.ac.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Number of campuses, telephone and email"
+        },
+        {
+          "title": "Home - South Campus",
+          "url": "https://south.mandela.ac.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "South Campus is the main campus"
+        },
+        {
+          "title": "Contact us - Global Leadership Institute (George)",
+          "url": "https://gli.mandela.ac.za/Contact-us",
+          "accessedOn": "2026-11-04",
+          "usedFor": "George Campus telephone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-wc-uct",
+      "name": "University of Cape Town",
+      "shortName": "UCT",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university in Rondebosch, Cape Town.",
+      "website": "https://www.uct.ac.za",
+      "email": null,
+      "phone": "+27 21 650 9111",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-wc-uct-rondebosch",
+          "name": "Rondebosch campus",
+          "isMain": true,
+          "streetAddress": "Woolsack Drive",
+          "suburb": "Rondebosch",
+          "town": "Cape Town",
+          "province": "Western Cape",
+          "postalCode": "7701",
+          "phone": "+27 21 650 9111",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "University of Cape Town - Western Cape Government",
+          "url": "https://westerncape.gov.za/public-entity/university-cape-town",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Street address and telephone"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-gp-wits",
+      "name": "University of the Witwatersrand",
+      "shortName": "Wits",
+      "category": "university_college",
+      "institutionType": "Public university",
+      "ownership": "public",
+      "description": "Public university in Braamfontein, Johannesburg.",
+      "website": "https://www.wits.ac.za",
+      "email": null,
+      "phone": "+27 11 717 1000",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-gp-wits-braamfontein",
+          "name": "Braamfontein campus",
+          "isMain": true,
+          "streetAddress": "1 Jan Smuts Avenue",
+          "suburb": "Braamfontein",
+          "town": "Johannesburg",
+          "province": "Gauteng",
+          "postalCode": "2000",
+          "phone": "+27 11 717 1000",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Wits University website footer (Contact Us)",
+          "url": "https://www.wits.ac.za/course-finder/undergraduate/science/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, general enquiries and admissions telephone numbers"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-clarendon-high",
+      "name": "Clarendon High School for Girls",
+      "shortName": "CHS",
+      "category": "high_school",
+      "institutionType": "Girls' high school (Grades 8–12)",
+      "ownership": null,
+      "description": "Girls' high school for Grades 8 to 12 in Selborne, East London, part of Clarendon Schools.",
+      "website": "https://clarendonschools.co.za/high/",
+      "email": "secretary.high@clarendonschools.co.za",
+      "phone": "+27 43 722 4887",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-clarendon-high-main",
+          "name": "Clarendon High School for Girls",
+          "isMain": true,
+          "streetAddress": "1A Union Avenue",
+          "suburb": "Selborne",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 722 4887",
+          "email": "secretary.high@clarendonschools.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Us - Clarendon Schools",
+          "url": "https://www.clarendonschools.co.za/contact-us",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and email"
+        },
+        {
+          "title": "Clarendon Schools home page",
+          "url": "https://clarendonschools.co.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Grades and girls-only education"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-hudson-park-high",
+      "name": "Hudson Park High School",
+      "shortName": "HPHS",
+      "category": "high_school",
+      "institutionType": "High school",
+      "ownership": null,
+      "description": "High school in East London, part of the Hudson Park group of schools.",
+      "website": "https://www.hphs.co.za",
+      "email": "office@hphs.co.za",
+      "phone": "+27 43 726 3205",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-hudson-park-high-main",
+          "name": "Hudson Park High School",
+          "isMain": true,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 726 3205",
+          "email": "office@hphs.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hudson Park Schools - Primary home page (school contacts)",
+          "url": "https://www.hphs.co.za/primary/home",
+          "accessedOn": "2026-11-04",
+          "usedFor": "High school telephone and email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-stirling-high",
+      "name": "Stirling High School",
+      "shortName": "SHS",
+      "category": "high_school",
+      "institutionType": "Co-educational high school (Grades 8–12)",
+      "ownership": "public",
+      "description": "Co-educational government high school for Grades 8 to 12 in Stirling, East London.",
+      "website": "https://stirlinghigh.co.za",
+      "email": "info@stirlinghs.co.za",
+      "phone": "+27 43 735 1444",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-stirling-high-main",
+          "name": "Stirling High School",
+          "isMain": true,
+          "streetAddress": "Gleneagles Road",
+          "suburb": "Stirling",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": "5241",
+          "phone": "+27 43 735 1444",
+          "email": "info@stirlinghs.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stirling High School home page",
+          "url": "https://stirlinghigh.co.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Description, address, telephone and email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-merrifield",
+      "name": "Merrifield Preparatory School and College",
+      "shortName": "MPSC",
+      "category": "high_school",
+      "institutionType": "Independent school (Grade 000–12)",
+      "ownership": "private",
+      "description": "Independent school from Grade 000 to Grade 12 in Beacon Bay, East London, founded in 1997.",
+      "website": "https://mpsc.co.za",
+      "email": "info@mpsc.co.za",
+      "phone": "+27 43 748 6094",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-merrifield-main",
+          "name": "Merrifield campus",
+          "isMain": true,
+          "streetAddress": "Corner of the N6 and Bonza Bay Road",
+          "suburb": "Beacon Bay",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 748 6094",
+          "email": "info@mpsc.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Us - Merrifield Preparatory School and College",
+          "url": "https://mpsc.co.za/contact/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and email"
+        },
+        {
+          "title": "Merrifield Preparatory School and College home page",
+          "url": "https://mpsc.co.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Grades, founding year and independent status"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-wc-rondebosch-boys-high",
+      "name": "Rondebosch Boys' High School",
+      "shortName": "RBHS",
+      "category": "high_school",
+      "institutionType": "Boys' high school",
+      "ownership": null,
+      "description": "Boys' high school in Rondebosch, Cape Town.",
+      "website": "https://www.rondebosch.com",
+      "email": "infoline@rondebosch.com",
+      "phone": "+27 21 686 3987",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-wc-rondebosch-boys-high-main",
+          "name": "Rondebosch Boys' High School",
+          "isMain": true,
+          "streetAddress": "Canigou Avenue",
+          "suburb": "Rondebosch",
+          "town": "Cape Town",
+          "province": "Western Cape",
+          "postalCode": "7700",
+          "phone": "+27 21 686 3987",
+          "email": null,
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rondebosch Boys' High School - official Facebook page (About)",
+          "url": "https://www.facebook.com/rondeboschboys/about",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone, email and website"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-gp-pretoria-boys-high",
+      "name": "Pretoria Boys High School",
+      "shortName": "PBHS",
+      "category": "high_school",
+      "institutionType": "Boys' high school",
+      "ownership": "public",
+      "description": "Public boys' high school in Brooklyn, Pretoria.",
+      "website": "https://boyshigh.com",
+      "email": "info@boyshigh.com",
+      "phone": "+27 12 460 2246",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-gp-pretoria-boys-high-main",
+          "name": "Pretoria Boys High School",
+          "isMain": true,
+          "streetAddress": "251 Roper Street",
+          "suburb": "Brooklyn",
+          "town": "Pretoria",
+          "province": "Gauteng",
+          "postalCode": null,
+          "phone": "+27 12 460 2246",
+          "email": "admissions@boyshigh.com",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Pretoria Boys High School",
+          "url": "https://boyshigh.com/contact/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and emails"
+        },
+        {
+          "title": "Get Involved - Pretoria Boys High School",
+          "url": "https://boyshigh.com/get-involved/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Public boys' school"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-selborne-primary",
+      "name": "Selborne Primary School",
+      "shortName": "SP",
+      "category": "primary_school",
+      "institutionType": "Primary school",
+      "ownership": null,
+      "description": "Primary school in Selborne, East London, which shares its history with Selborne College.",
+      "website": "https://www.selborneprimary.co.za",
+      "email": "office@selborneprimary.co.za",
+      "phone": "+27 43 726 5341",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-selborne-primary-main",
+          "name": "Selborne Primary School",
+          "isMain": true,
+          "streetAddress": "Crewe Road",
+          "suburb": "Selborne",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 726 5341",
+          "email": "office@selborneprimary.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact us - Selborne Primary School",
+          "url": "https://www.selborneprimary.co.za/contact/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and email"
+        },
+        {
+          "title": "Our history - Selborne Primary School",
+          "url": "https://www.selborneprimary.co.za/our-history/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "History with Selborne College"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-clarendon-primary",
+      "name": "Clarendon Primary School for Girls",
+      "shortName": "CPS",
+      "category": "primary_school",
+      "institutionType": "Girls' primary school (Grades 4–7)",
+      "ownership": null,
+      "description": "Girls' primary school for Grades 4 to 7 in Selborne, East London, part of Clarendon Schools.",
+      "website": "https://clarendonschools.co.za/",
+      "email": "office.prim@clarendonschools.co.za",
+      "phone": "+27 43 722 5128",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-clarendon-primary-main",
+          "name": "Clarendon Primary School",
+          "isMain": true,
+          "streetAddress": "Cheltenham Road",
+          "suburb": "Selborne",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 722 5128",
+          "email": "office.prim@clarendonschools.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Clarendon Schools home page",
+          "url": "https://clarendonschools.co.za/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Grades, address, telephone and email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-hudson-park-primary",
+      "name": "Hudson Park Primary School",
+      "shortName": "HPPS",
+      "category": "primary_school",
+      "institutionType": "Co-educational primary school",
+      "ownership": null,
+      "description": "Co-educational primary school in East London, part of the Hudson Park group of schools.",
+      "website": "https://www.hphs.co.za/primary/home",
+      "email": "office@hpps.co.za",
+      "phone": "+27 43 726 3220",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-hudson-park-primary-main",
+          "name": "Hudson Park Primary School",
+          "isMain": true,
+          "streetAddress": null,
+          "suburb": null,
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 726 3220",
+          "email": "office@hpps.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Home - Hudson Park Primary School",
+          "url": "https://www.hphs.co.za/primary/home",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Description, telephone and email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-ec-stirling-primary",
+      "name": "Stirling Primary School",
+      "shortName": "SPS",
+      "category": "primary_school",
+      "institutionType": "Primary school",
+      "ownership": null,
+      "description": "Primary school in Stirling, East London.",
+      "website": "https://www.stirlingps.co.za",
+      "email": "office@stirlingps.co.za",
+      "phone": "+27 43 735 1426",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-ec-stirling-primary-main",
+          "name": "Stirling Primary School",
+          "isMain": true,
+          "streetAddress": "Epsom Road",
+          "suburb": "Stirling",
+          "town": "East London",
+          "province": "Eastern Cape",
+          "postalCode": null,
+          "phone": "+27 43 735 1426",
+          "email": "office@stirlingps.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact Us - Stirling Primary School",
+          "url": "https://www.stirlingps.co.za/why-choose-stirling-3/",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-wc-rustenburg-girls-junior",
+      "name": "Rustenburg Girls' Junior School",
+      "shortName": "RGJS",
+      "category": "primary_school",
+      "institutionType": "Girls' primary school",
+      "ownership": null,
+      "description": "Girls' junior (primary) school on Main Road, Rondebosch, Cape Town.",
+      "website": "https://www.rgjs.co.za",
+      "email": "admin@rgjs.org.za",
+      "phone": "+27 21 689 1981",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-wc-rustenburg-girls-junior-main",
+          "name": "Rustenburg Girls' Junior School",
+          "isMain": true,
+          "streetAddress": "Main Road",
+          "suburb": "Rondebosch",
+          "town": "Cape Town",
+          "province": "Western Cape",
+          "postalCode": "7700",
+          "phone": "+27 21 689 1981",
+          "email": "admin@rgjs.org.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Application for admission form - Rustenburg Junior School for Girls",
+          "url": "https://www.rgjs.co.za/wp-content/uploads/2021/01/APPLICATION-FOR-ADMISSION-ALL-GRADES-2.pdf",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and admissions email"
+        }
+      ],
+      "events": []
+    },
+    {
+      "id": "za-gp-waterkloof-primary",
+      "name": "Waterkloof Primary School",
+      "shortName": "WPS",
+      "category": "primary_school",
+      "institutionType": "Primary school",
+      "ownership": null,
+      "description": "Primary school in Waterkloof, Pretoria.",
+      "website": "https://www.waterkloofps.co.za",
+      "email": "info@waterkloofprimary.co.za",
+      "phone": "+27 12 460 3221",
+      "logoUrl": null,
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "campuses": [
+        {
+          "id": "za-gp-waterkloof-primary-main",
+          "name": "Waterkloof Primary School",
+          "isMain": true,
+          "streetAddress": "306 Milner Street",
+          "suburb": "Waterkloof",
+          "town": "Pretoria",
+          "province": "Gauteng",
+          "postalCode": "0181",
+          "phone": "+27 12 460 3221",
+          "email": "info@waterkloofprimary.co.za",
+          "latitude": null,
+          "longitude": null
+        }
+      ],
+      "sources": [
+        {
+          "title": "Contact details - Waterkloof Primary School",
+          "url": "https://www.waterkloofps.co.za/contact.html",
+          "accessedOn": "2026-11-04",
+          "usedFor": "Address, telephone and email"
+        }
+      ],
+      "events": []
+    }
+  ],
+  "nationalEvents": [
+    {
+      "id": "za-schools-2026-term1-opens",
+      "title": "Public schools open for 2026",
+      "category": "school_holiday",
+      "startDate": "2026-01-14",
+      "endDate": null,
+      "description": "First day of Term 1 for learners.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2026-autumn",
+      "title": "Public school holidays (after Term 1)",
+      "category": "school_holiday",
+      "startDate": "2026-03-28",
+      "endDate": "2026-04-07",
+      "description": "Term 1 ends on 27 March and Term 2 starts on 8 April. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2026-special-holiday",
+      "title": "Special school holiday",
+      "category": "school_holiday",
+      "startDate": "2026-06-15",
+      "endDate": null,
+      "description": "Special school holiday the day before Youth Day.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2026-winter",
+      "title": "Public school holidays (after Term 2)",
+      "category": "school_holiday",
+      "startDate": "2026-06-27",
+      "endDate": "2026-07-20",
+      "description": "Term 2 ends on 26 June and Term 3 starts on 21 July. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2026-spring",
+      "title": "Public school holidays (after Term 3)",
+      "category": "school_holiday",
+      "startDate": "2026-09-24",
+      "endDate": "2026-10-05",
+      "description": "Term 3 ends on 23 September and Term 4 starts on 6 October. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2026-summer",
+      "title": "Public school summer holidays",
+      "category": "school_holiday",
+      "startDate": "2026-12-10",
+      "endDate": "2027-01-12",
+      "description": "Term 4 of 2026 ends on 9 December. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-term1-opens",
+      "title": "Public schools open for 2027",
+      "category": "school_holiday",
+      "startDate": "2027-01-13",
+      "endDate": null,
+      "description": "First day of Term 1 for learners.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-autumn",
+      "title": "Public school holidays (after Term 1)",
+      "category": "school_holiday",
+      "startDate": "2027-03-20",
+      "endDate": "2027-04-05",
+      "description": "Term 1 ends on 19 March and Term 2 starts on 6 April. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-special-holiday",
+      "title": "Special school holiday",
+      "category": "school_holiday",
+      "startDate": "2027-04-26",
+      "endDate": null,
+      "description": "Special school holiday the day before Freedom Day.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-winter",
+      "title": "Public school holidays (after Term 2)",
+      "category": "school_holiday",
+      "startDate": "2027-06-26",
+      "endDate": "2027-07-19",
+      "description": "Term 2 ends on 25 June and Term 3 starts on 20 July. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-spring",
+      "title": "Public school holidays (after Term 3)",
+      "category": "school_holiday",
+      "startDate": "2027-09-23",
+      "endDate": "2027-10-04",
+      "description": "Term 3 ends on 22 September and Term 4 starts on 5 October. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-schools-2027-summer",
+      "title": "Public school summer holidays begin",
+      "category": "school_holiday",
+      "startDate": "2027-12-09",
+      "endDate": null,
+      "description": "Term 4 of 2027 ends on 8 December. Public school holidays (all provinces). Independent schools set their own dates.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178)",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04",
+      "countryCode": "ZA"
+    },
+    {
+      "id": "za-public-2026-01-01-new-years-day",
+      "title": "New Year's Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-03-21-human-rights-day",
+      "title": "Human Rights Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-03-21",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-04-03-good-friday",
+      "title": "Good Friday",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-04-03",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-04-06-family-day",
+      "title": "Family Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-04-06",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-04-27-freedom-day",
+      "title": "Freedom Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-04-27",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-05-01-workers-day",
+      "title": "Workers' Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-05-01",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-06-16-youth-day",
+      "title": "Youth Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-06-16",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-08-09-national-womens-day",
+      "title": "National Women's Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-08-09",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-08-10-public-holiday",
+      "title": "Public holiday",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-08-10",
+      "endDate": null,
+      "description": "Public holiday because National Women's Day falls on a Sunday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-09-24-heritage-day",
+      "title": "Heritage Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-09-24",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-11-04-local-government-elections",
+      "title": "Local Government Elections",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-11-04",
+      "endDate": null,
+      "description": "Public holiday declared for the 2026 Local Government Elections.",
+      "source": {
+        "title": "President declares 4 November as a public holiday (SAnews.gov.za)",
+        "url": "https://www.sanews.gov.za/south-africa/lge-president-ramaphosa-declares-4-november-public-holiday",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-12-16-day-of-reconciliation",
+      "title": "Day of Reconciliation",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-12-16",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-12-25-christmas-day",
+      "title": "Christmas Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-12-25",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2026-12-26-day-of-goodwill",
+      "title": "Day of Goodwill",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2026-12-26",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2026 Calendar for Public Schools (Government Gazette 52177) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202026%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-01-01-new-years-day",
+      "title": "New Year's Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-01-01",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-03-21-human-rights-day",
+      "title": "Human Rights Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-03-21",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-03-22-public-holiday",
+      "title": "Public holiday",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-03-22",
+      "endDate": null,
+      "description": "Public holiday because Human Rights Day falls on a Sunday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-03-26-good-friday",
+      "title": "Good Friday",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-03-26",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-03-29-family-day",
+      "title": "Family Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-03-29",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-04-27-freedom-day",
+      "title": "Freedom Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-04-27",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-05-01-workers-day",
+      "title": "Workers' Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-05-01",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-06-16-youth-day",
+      "title": "Youth Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-06-16",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-08-09-national-womens-day",
+      "title": "National Women's Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-08-09",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-09-24-heritage-day",
+      "title": "Heritage Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-09-24",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-12-16-day-of-reconciliation",
+      "title": "Day of Reconciliation",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-12-16",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-12-25-christmas-day",
+      "title": "Christmas Day",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-12-25",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-12-26-day-of-goodwill",
+      "title": "Day of Goodwill",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-12-26",
+      "endDate": null,
+      "description": "South African public holiday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    },
+    {
+      "id": "za-public-2027-12-27-public-holiday",
+      "title": "Public holiday",
+      "category": "public_holiday",
+      "countryCode": "ZA",
+      "startDate": "2027-12-27",
+      "endDate": null,
+      "description": "Public holiday because the Day of Goodwill falls on a Sunday.",
+      "source": {
+        "title": "2027 Calendar for Public Schools (Government Gazette 52178) - public holiday list",
+        "url": "https://www.education.gov.za/portals/0/documents/publications/2025/Published%202027%20School%20Calendar.pdf",
+        "accessedOn": "2026-11-04"
+      },
+      "verificationStatus": "verified",
+      "lastVerifiedOn": "2026-11-04"
+    }
+  ],
+  "retiredInstitutions": []
+}
