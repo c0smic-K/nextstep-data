@@ -2,6 +2,6 @@
   "format": "nextstep-manifest",
   "datasets": [
     { "schemaVersion": 4, "datasetVersion": 7, "publishedAt": "2026-11-04", "file": "nextstep_dataset_v7.json", "sha256": "33bfb63b55a85ee617e70d76e12a3b687e88474d7234d57d781cf5709806a6cb" },
-    { "schemaVersion": 6, "datasetVersion": 10, "publishedAt": "2026-11-04", "file": "nextstep_dataset_v10.json", "sha256": "f2559b0d24642cb456ef3b9f05f7b7077ca5b3344b218d282cc9cb10feb4c96c" }
+    { "schemaVersion": 6, "datasetVersion": 11, "publishedAt": "2026-11-04", "file": "nextstep_dataset_v11.json", "sha256": "649e54ae0616ed64881761118013bb8f3c3a3f62a4b4e78f9fc1ef620c8d481a" }
   ]
 }
